@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktemplate_react_base=self.webpackChunktemplate_react_base||[]).push([[138],{854:function(e,t,n){n.r(t),n.d(t,{default:function(){return r}});var a=n(14),l=n(165);function r(){var e=(0,l.TH)();return a.createElement(a.Fragment,null,a.createElement("h2",null,"About"),a.createElement("div",null,"location: ".concat(JSON.stringify(e))))}}}]);
+//# sourceMappingURL=138.97ac91ff90d825479030.js.map

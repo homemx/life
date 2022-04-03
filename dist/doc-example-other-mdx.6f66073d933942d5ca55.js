@@ -1,0 +1,11 @@
+"use strict";(self.webpackChunktemplate_react_base=self.webpackChunktemplate_react_base||[]).push([[555],{891:function(e,n,r){r.r(n),r.d(n,{Tag:function(){return o.Z},author:function(){return i},date:function(){return u},default:function(){return l},title:function(){return s},tocData:function(){return a},wordCount:function(){return c}});r(825);var t=r(888),o=r(387),c=26,a=[{depth:1,text:"other"},{depth:2,text:"some text"},{depth:2,text:"link"},{depth:2,text:"code"}],s="xxx",u="2022年04月26日",i="jerry";var l=function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{},n=e.components||{},r=n.wrapper;return r?(0,t.jsx)(r,Object.assign({},e,{children:(0,t.jsx)(o,{})})):o();function o(){var n=Object.assign({h1:"h1",h2:"h2",p:"p",a:"a",pre:"pre",code:"code"},e.components);return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h1,{children:"other"}),"\n",(0,t.jsx)(n.h2,{children:"some text"}),"\n",(0,t.jsx)(n.p,{children:"other world"}),"\n",(0,t.jsx)(n.h2,{children:"link"}),"\n",(0,t.jsx)(n.p,{children:(0,t.jsx)(n.a,{href:"/doc/xx/a",children:"goto xx/a"})}),"\n",(0,t.jsx)(n.h2,{children:"code"}),"\n",(0,t.jsx)(n.pre,{render:!0,children:(0,t.jsx)(n.code,{className:"language-jsx",children:'() => {\n  return (\n    <>\n      <Tag color="success">a tag</Tag>\n    </>\n  )\n}\n'})})]})}}},889:function(e,n,r){
+/** @license React v17.0.2
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+r(16);var t=r(14),o=60103;if(n.Fragment=60107,"function"==typeof Symbol&&Symbol.for){var c=Symbol.for;o=c("react.element"),n.Fragment=c("react.fragment")}var a=t.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,s=Object.prototype.hasOwnProperty,u={key:!0,ref:!0,__self:!0,__source:!0};function i(e,n,r){var t,c={},i=null,l=null;for(t in void 0!==r&&(i=""+r),void 0!==n.key&&(i=""+n.key),void 0!==n.ref&&(l=n.ref),n)s.call(n,t)&&!u.hasOwnProperty(t)&&(c[t]=n[t]);if(e&&e.defaultProps)for(t in n=e.defaultProps)void 0===c[t]&&(c[t]=n[t]);return{$$typeof:o,type:e,key:i,ref:l,props:c,_owner:a.current}}n.jsx=i,n.jsxs=i},888:function(e,n,r){e.exports=r(889)}}]);
+//# sourceMappingURL=doc-example-other-mdx.6f66073d933942d5ca55.js.map

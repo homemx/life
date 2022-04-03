@@ -1,0 +1,132 @@
+---
+title: 你好，世界
+date: 2022年04月02日
+toc: true
+sidebar: false
+expand: false
+tags:
+  - 随想
+  - 三十
+  - 技术
+---
+
+import { Button, Modal } from 'antd'
+export { Button, Modal }
+
+## react live 例子
+
+### 可编辑
+
+```jsx live
+() => {
+  const [count, setCount] = React.useState(1)
+
+  return (
+    <>
+      <p>{count}</p>
+      <Button type="primary" onClick={() => setCount(count + 1)}>increase</Button>
+    </>
+  )
+}
+```
+
+### 可编辑 2，注入 component
+```jsx live version="1.2.0"
+() => {
+  return (
+    <>
+      <Button type="primary" onClick={
+        () => Modal.success({
+          title: 'hello',
+          content: 'world'
+        })
+      }>modal</Button>
+    </>
+  )
+}
+```
+
+
+### 直接render
+```jsx render
+() => {
+  const [count, setCount] = React.useState(1)
+
+  return (
+    <>
+      <p>{count}</p>
+      <Button type="primary" onClick={() => setCount(count + 1)}>increase</Button>
+    </>
+  )
+}
+```
+
+## 仅代码高亮
+```jsx
+() => {
+  const [count, setCount] = React.useState(1)
+
+  return (
+    <>
+      <p>{count}</p>
+      <Button type="primary" onClick={() => setCount(count + 1)}>increase</Button>
+    </>
+  )
+}
+```
+
+
+## Table 显示
+
+### hello 1
+
+### 一个示例
+<ApiTable
+  data={[
+    ['columns', 'ColumnsType[]', '-', '表格列的配置描述'],
+    ['dataSource', 'object[]', '-', '数据数组'],
+    ['footer', 'function(currentPageData)', '-', '表格尾部']
+  ]}
+/>
+
+
+## 其他的文本显示
+
+
+### hello 1
+#### hello 1-1
+#### hello 1-2
+##### nest 5
+
+- hello
+- world
+- hello
+- hello
+- hello
+- hello
+- hello
+- world
+- world
+- world
+- world
+- world
+- hello
+- hello
+- hello
+- hello
+- hello
+- world
+- world
+- world
+- world
+- world
+
+### hello 2
+hello
+#### hello 2-1
+world
+#### hello 2-2
+xxx aaa 我
+- hello
+  - world
+  - abc
